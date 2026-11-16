@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E9BA3CC330AB89260018A7E6 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = E9BA3CC230AB89260018A7E6 /* Algorithms */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E98F75B03063155F00122503 /* Step Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Step Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -22,6 +26,7 @@
 		E98F75AD3063155F00122503 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				E9BA3CC330AB89260018A7E6 /* Algorithms in Frameworks */,
 			);
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -60,6 +65,9 @@
 				E98F75B23063155F00122503 /* Step Tracker */,
 			);
 			name = "Step Tracker";
+			packageProductDependencies = (
+				E9BA3CC230AB89260018A7E6 /* Algorithms */,
+			);
 			productName = "Step Tracker";
 			productReference = E98F75B03063155F00122503 /* Step Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -88,6 +96,9 @@
 			);
 			mainGroup = E98F75A73063155F00122503;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E9BA3CC130AB89260018A7E6 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E98F75B13063155F00122503 /* Products */;
 			projectDirPath = "";
@@ -326,6 +337,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9BA3CC130AB89260018A7E6 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9BA3CC230AB89260018A7E6 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9BA3CC130AB89260018A7E6 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E98F75A83063155F00122503 /* Project object */;
 	validationLevel = 1;
