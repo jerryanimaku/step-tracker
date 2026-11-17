@@ -1,2 +1,2 @@
 # step-tracker
-HealthKit Step Tracking Portfolio Project
+HealthKit Tracking Project
